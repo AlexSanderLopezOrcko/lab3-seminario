@@ -8,6 +8,7 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Added
+- Códigos de descuento (`applyDiscount`) y opción `discountCode` en `calculateTotal`.
 
 ### Changed
 
