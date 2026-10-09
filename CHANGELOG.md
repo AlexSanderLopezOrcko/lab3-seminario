@@ -9,6 +9,7 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 
 ### Added
 - Códigos de descuento (`applyDiscount`) y opción `discountCode` en `calculateTotal`.
+- Impuesto IVA del 13 % (`TAX_RATE`, `calculateTax`, `addTax`) y opción `includeTax` en `calculateTotal`.
 
 ### Changed
 
