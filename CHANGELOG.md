@@ -22,3 +22,5 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 - Cálculo del total de un carrito (`calculateTotal`).
 - Formato de precios en bolivianos (`formatPrice`).
 - CLI básica con los comandos `list` y `search`.
+
+- Soporte para conversion y formato de precios en BOB, USD y EUR.
