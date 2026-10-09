@@ -3,14 +3,16 @@
 export const CURRENCIES = {
   BOB: { symbol: 'Bs', rate: 1 },
   USD: { symbol: '$', rate: 0.145 },
-  EUR: { symbol: '\u20AC', rate: 0.133 },
+  EUR: { symbol: '€', rate: 0.133 },
 };
 
 export function getCurrency(code) {
   const currency = CURRENCIES[code];
+
   if (!currency) {
     throw new Error(`Moneda no soportada: ${code}`);
   }
+
   return currency;
 }
 
