@@ -13,6 +13,14 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 
 ### Fixed
 
+## [1.1.0] - 2026-10-09
+
+### Added
+- Códigos de descuento (`applyDiscount`) y opción `discountCode` en `calculateTotal`.
+- Impuesto IVA del 13 % (`TAX_RATE`, `calculateTax`, `addTax`) y opción `includeTax` en `calculateTotal`.
+- Soporte para conversión y formato de precios en BOB, USD y EUR.
+- Recibo imprimible (`buildReceipt`).
+
 ## [1.0.0] - 2026-10-01
 
 ### Added
