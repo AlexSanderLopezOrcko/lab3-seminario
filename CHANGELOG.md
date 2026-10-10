@@ -16,8 +16,7 @@ y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
 - Impuesto IVA del 13 % (`TAX_RATE`, `calculateTax`, `addTax`) y opción `includeTax` en `calculateTotal`.
 - Soporte para conversión y formato de precios en BOB, USD y EUR.
 
-- Generación de recibos de compra mediante el comando `receipt`.
-
+- Recibo imprimible (`buildReceipt`).
 ### Changed
 
 ### Fixed
